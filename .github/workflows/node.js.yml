@@ -5,6 +5,9 @@ name: Node.js CI
 
 on:
   push:
+    paths:
+      - '!README.md'
+      - '**.js'
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
