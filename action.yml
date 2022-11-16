@@ -1,7 +1,7 @@
 name: Test Report
 description: |
   Shows test results in GitHub UI: .NET (xUnit, NUnit, MSTest), Dart, Flutter, Java (JUnit), JavaScript (JEST, Mocha)
-author: Michal Dorner <dorner.michal@gmail.com>
+author: 
 inputs:
   artifact:
     description: Name or regex of artifact containing test results
@@ -86,7 +86,7 @@ outputs:
   time:
     description: Test execution time [ms]
 runs:
-  using: 'node14, node16, node18'
+  using: 'node16'
   main: 'specs/**.js'
 branding:
   color: blue
