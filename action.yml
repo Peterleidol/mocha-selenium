@@ -87,7 +87,7 @@ outputs:
     description: Test execution time [ms]
 runs:
   using: 'node14, node16, node18'
-  main: 'specs/.js'
+  main: 'specs/**.js'
 branding:
   color: blue
   icon: file-text
