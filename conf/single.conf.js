@@ -1,6 +1,6 @@
 
-LT_USERNAME = process.env.LT_USERNAME || "romepeterle";
-LT_ACCESS_KEY = process.env.LT_ACCESS_KEY || "ess7BthbVt2hFGZ0hahkXPytGLl7EOcV7lufvU0xsFPS870lv7";
+LT_USERNAME = process.env.LT_USERNAME || "peterle10062002";
+LT_ACCESS_KEY = process.env.LT_ACCESS_KEY || "FgcwONtVKgOxLPPuHoI81iEWY34JPJJ9ksRPRYcPvB7OeSGnvi";
 
 exports.capabilities = {
   'build': 'Mocha-Selenium-Sample', //Build name
